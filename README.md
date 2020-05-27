@@ -10,9 +10,9 @@ Prerequisite : Java 8 and Later version
 3) cd elasticsearch-6.8.5       
 4) $ bin/elasticsearch     
 
-### Create a index called 'products' 
+### Create a index called 'annotated-products' 
 
-curl -X PUT "localhost:9200/products" -H 'Content-Type: application/json' -d'
+curl -X PUT "localhost:9200/annotated-products" -H 'Content-Type: application/json' -d'
 {
     "settings" : {
         "index" : {
@@ -25,7 +25,7 @@ curl -X PUT "localhost:9200/products" -H 'Content-Type: application/json' -d'
 
 ### Populate with content from Bo Anderson's Complete Guide to Elasticsearch class (Udemy)
 
-curl -H 'Content-Type: application/json' -XPOST "localhost:9200/products/default/_bulk?pretty" --data-binary "@test-data.json"
+curl -H 'Content-Type: application/json' -XPOST "localhost:9200/annotated-products/default/_bulk?pretty" --data-binary "@test-data.json"
 
 ### Run project 
     $ gradle build
@@ -33,14 +33,4 @@ curl -H 'Content-Type: application/json' -XPOST "localhost:9200/products/default
 
 ### Delete index
 
-curl -X DELETE "localhost:9200/products" -H 'Content-Type: application/json'
-
-## Secondary examples
-
-### Start Elasticsearch 
-
-As above
-
-### Run ArticleMainHL or ArticleMainLL
-
-These show the High-Level API and the Low-Level API.
+curl -X DELETE "localhost:9200/annotated-products" -H 'Content-Type: application/json'
