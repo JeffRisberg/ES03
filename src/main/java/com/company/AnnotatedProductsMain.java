@@ -19,7 +19,7 @@ import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 
 @Slf4j
-public class ProductMain {
+public class AnnotatedProductsMain {
   public static void main(String[] args) {
     String clusterName = "elasticsearch";
     String indexName = "annotated-products";

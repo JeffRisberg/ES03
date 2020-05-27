@@ -29,7 +29,7 @@ curl -H 'Content-Type: application/json' -XPOST "localhost:9200/annotated-produc
 
 ### Run project 
     $ gradle build
-    $ gradle -PmainClass=com.company.ProductMain execute
+    $ gradle -PmainClass=com.company.AnnotatedProductsMain execute
 
 ### Delete index
 
