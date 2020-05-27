@@ -1,0 +1,12 @@
+target/*
+.idea/tasks.xml
+.idea/workspace.xml
+.idea/libraries
+.classpath
+.cache
+*.log
+.gradle/
+build/
+out/
+.DS_Store
+

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "I want to reset my password",
+    "category": "Software",
+    "description": "Reset your Mac login password. On your Mac, choose Apple menu > Restart, or press the Power button on your computer and then click Restart. Click your user account, click the question mark in the password field, then click the arrow next to reset it using your Apple ID. Enter an Apple ID and password, then click Next.",
+    "is_active": true,
+    "created": "2017-05-13",
+    "tags": ["mac", "password", "reset"]
+  },
+  {
+    "title": "I need to update router",
+    "category": "Hardware",
+    "description": "Open your web browser and navigate to https://www.routerlogin.net.\nEnter admin as username and password as password.\nOnce you access your router settings, go to ADVANCED > Administration.\nChoose Firmware Update or Router Update button.\nClick the Check button. ...\nClick the Yes button to download and install the updates.",
+    "is_active": true,
+    "created": "2017-05-14",
+    "tags": ["web", "router", "firmware", "vpn", "virtual private network"]
+  },
+  {
+    "title": "I cannot access main login screen",
+    "category": "Software",
+    "description": "Power ON your computer and as Windows / manufacturer's Logo appears, Power OFF - Repeat 3 times\nNow your computer will go into Advanced Recovery Environment\nAdvanced Options > Troubleshoot > Advanced Options > Startup Settings > Restart\nPress 4 or F4 to enable Safe Mode (5 or F5 to enable Safe Mode with Networking)\nLog in once Windows starts in safe mode\nSee whether you able to login. If yes, come out of this and start normally.",
+    "is_active": true,
+    "created": "2017-05-14",
+    "tags": ["windows", "login", "password", "screen"]
+  }
+]
