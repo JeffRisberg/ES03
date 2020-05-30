@@ -27,7 +27,7 @@ dependencies {
   compile 'com.google.guava:guava:28.2-jre'
 
   compile group: 'org.elasticsearch.client', name: 'transport', version: elasticSearchClientVersion
-  compile group: 'org.elasticsearch.client', name: 'elasticsearch-rest-high-level-client', version: '6.8.7'
+  compile group: 'org.elasticsearch.client', name: 'elasticsearch-rest-high-level-client', version: '6.8.8'
 
   testCompile group: 'junit', name: 'junit', version: junitVersion
 }
