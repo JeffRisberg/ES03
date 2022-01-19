@@ -23,6 +23,10 @@ dependencies {
   runtime "org.slf4j:slf4j-simple:$slf4jVersion"
   compile "org.projectlombok:lombok:$projectLombokVersion"
 
+  compile 'org.apache.commons:commons-lang3:3.10'
+  compile group: 'commons-collections', name: 'commons-collections', version: '3.2.2'
+  compile group: 'org.apache.commons', name: 'commons-text', version: '1.6'
+
   compile 'com.googlecode.json-simple:json-simple:1.1.1'
   compile 'com.google.guava:guava:28.2-jre'
 
